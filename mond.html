@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Genshin Characters</title>
+        <link rel="stylesheet" href="accets/mondst.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <header>
+            <h2 class="logo">Genshin Characters</h2>
+            <nav class="navigation">
+                <a href="index.html">Главная</a> 
+                <a href="index.html#slider">Регионы</a>
+                <a href="index.html#news">Новости</a> 
+                <button onclick="Scroll()" class="btnLogin-popup">Вход</button>
+            </nav>
+        </header>
+        <div class="wrapper__outer">
+            <div class="wrapper">
+                <span class="icon-close">
+                    <ion-icon name="close-outline"></ion-icon>
+                </span>
+                <div class="form-box login">
+                    <h2>Войти в учетную запись</h2>
+                    <form action="#">
+                        <div class="input-box">
+                            <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+                            <input type="email" required>
+                            <label>Электронная почта</label>
+                        </div>
+                        <div class="input-box">
+                            <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                            <input type="password" required>
+                            <label>Пароль</label>
+                        </div>
+                        <div class="remember-forgot">
+                            <label><input type="checkbox">Запомнить меня</label>
+                            <a href="#">Забыли пароль?</a>
+                        </div>
+                        <button type="submit" class="btn">Войти</button>
+                        <div class="login-register">
+                            <p>Нет аккаунта? <a href="#" class="register-link">Зарегистрироваться</a></p>
+                        </div>
+                    </form>
+                </div>
+                <div class="form-box register">
+                    <h2>Регистрация</h2>
+                    <form action="#">
+                        <div class="input-box">
+                            <span class="icon"><ion-icon name="person-outline"></ion-icon></span>
+                            <input type="text" required>
+                            <label>Логин</label>
+                        </div>
+                        <div class="input-box">
+                            <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+                            <input type="email" required>
+                            <label>Электронная почта</label>
+                        </div>
+                        <div class="input-box">
+                            <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                            <input type="password" required>
+                            <label>Пароль</label>
+                        </div>
+                        <div class="remember-forgot">
+                            <label><input type="checkbox">Мною прочитаны и приняты Пользовательское соглашение и Политика конфиденциальности</label>
+                        </div>
+                        <button type="submit" class="btn">Регистрация</button>
+                        <div class="login-register">
+                            <p>У вас уже есть аккаунт? <a href="#" class="login-link">Войти</a></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <main>
+            <div class="city__content">
+                <h1 class="city__name">Мондштадт</h1> 
+                <div class="city__desc">
+                     <p>Город свободы. Расположен в северо-восточной части материка Тейват.
+                    <br> Минуя горные ущелья и обширные равнины, ветер свободы с ароматом одуванчиков проносится над Сидровым озером, в сердце которого раскинулся величественный Мондштадт, и приносит с собой благословение архонта ветра Барбатоса.</p>
+                </div> 
+                <img src="https://blog.ru.playstation.com/tachyon/sites/11/2021/03/51004134082_fb70430f49_h.png?fit=1024,900">
+            </div>
+        </main>
+        <h2>Персонажи Мондштадта</h2>
+        <section class="sliderSection">
+        <div class="slider">
+            <div class="list">
+                <div class="item active">
+                    <img src="accets/image/mond/jean.png">
+                    <div class="content">
+                        <h2>Джинн</h2>
+                        <p>
+                            Будучи действующим командиром Ордо Фавониус, Джинн всегда предана своему долгу поддерживать мир в Мондштадте. Конечно, она не самый одарённый боец, но её усердие и добросовестность сделали её одним из самых надёжных рыцарей ордена.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="accets/image/mond/barbara.png">
+                    <div class="content">
+                        <h2>Барбара</h2>
+                        <p>
+                            Пастор Ордо Фавониус, а также сияющая звёздочка, любимая всеми в Мондштадте. Жители Мондштадта больше привыкли к бардам, нежели к звёздочкам, но они всё равно без ума от Барбары. "Я в долгу перед духом свободы этого города." - Барбара, о своей популярности
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="accets/image/mond/razor.png">
+                    <div class="content">
+                        <h2>Рэйзор</h2>
+                        <p>
+                            В Мондштадте говорят, что он сирота, которого воспитали волки. Этот мальчик комфортнее всего чувствует себя в дикой природе, сражаясь громом и когтями.
+                            По сей день в лесной чаще мальчик охотится со стаей волков, полагаясь только на свои животные инстинкты.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="accets/image/mond/venti.png">
+                    <div class="content">
+                        <h2>Венти</h2>
+                        <p>
+                            Неведомые ветра привели барда в наши земли. Порой его песни стары как свет, а иной раз он играет современные произведения. Любит яблоки и живую атмосферу, не любит сыры и всё липкое.
+                            Когда он управляет ветрами, его Анемо сила проявляется в виде перьев. Венти привлекает их лёгкость и беспечность.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="accets/image/mond/klee.png">
+                    <div class="content">
+                        <h2>Кли</h2>
+                        <p>
+                            Рыцарь Искорка из Ордо Фавониус! Повсюду за ней следуют вспышки и взрывы! Но весь огонь затухает, как только появляется Джинн. 
+                            Одиночное заключение даёт время подумать над новыми формулами пороха... Но все равно свобода - лучше!
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="accets/image/mond/bennet.png">
+                    <div class="content">
+                        <h2>Беннет</h2>
+                        <p>
+                            Молодой искатель приключений из Мондштадта, известный своим чудовищным невезением. Он остался единственным членом группы искателей приключений, известной как «отряд Бенни». Остальные участники покинули отряд после череды неудач.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="accets/image/mond/sucrose.png">
+                    <div class="content">
+                        <h2>Сахароза</h2>
+                        <p>
+                            Алхимик с ненасытным любопытством к миру и всему, что в нём находится. Её область исследования - биоалхимия.
+                            Конечно, результаты её исследований зачастую оказываются скорее странными, чем удивительными, но тем не менее она внесла огромный вклад в исследование биоалхимии.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="accets/image/mond/mona.png">
+                    <div class="content">
+                        <h2>Мона</h2>
+                        <p>
+                            Таинственный молодой астролог, которая представляется как «великий астролог Мона», и на самом деле достойна этого звания. Эрудирована и горделива.
+                            Хотя у неё вечно нет денег, она решительно отказывается использовать астрологию для заработка... 
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="accets/image/mond/diona.png">
+                    <div class="content">
+                        <h2>Диона</h2>
+                        <p>
+                            Невероятно популярный бармен таверны «Кошкин хвост». Любой коктейль, который она готовит собственноручно, выходит божественно вкусным. Но, учитывая отвращение Дионы к алкоголю, талант её - благословение или проклятие?
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="accets/image/mond/eula.png">
+                    <div class="content">
+                        <h2>Эола</h2>
+                        <p>
+                            Эола - мятежный потомок аристократии, Рыцарь Моpская пена, всегда на поле боя. 
+                            Она охотится на врагов Мондштадта в дикой природе, чтобы воплотить свою уникальную «месть».
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="arrows">
+                <button id="prev"><</button>
+                <button id="next">></button>
+            </div>
+            <div class="thumbnail">
+                <div class="item active">
+                    <img src="accets/image/mond/jean.png">
+                    <div class="content">
+                       Джинн
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="accets/image/mond/barbara.png">
+                    <div class="content">
+                        Барбара
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="accets/image/mond/razor.png">
+                    <div class="content">
+                        Рейзор
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="accets/image/mond/venti.png">
+                    <div class="content">
+                        Венти
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="accets/image/mond/klee.png">
+                    <div class="content">
+                        Кли
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="accets/image/mond/bennet.png">
+                    <div class="content">
+                        Беннет
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="accets/image/mond/sucrose.png">
+                    <div class="content">
+                        Сахароза
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="accets/image/mond/mona.png">
+                    <div class="content">
+                        Мона
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="accets/image/mond/diona.png">
+                    <div class="content">
+                        Диона
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="accets/image/mond/eula.png">
+                    <div class="content">
+                        Эола
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <h2 class="logo">Genshin Impact</h2>
+        <p><a href="https://genshin.hoyoverse.com/ru/home">Официальный сайт Genshin Impact</a></p>
+        <p><a href="mailto:sonvhx@icloud.com">Служба поддержки</a></p>
+        <ul class="social-footer2">
+            <li class=""><a href="https://www.youtube.com/c/GenshinImpact" title="youtube" target="_blank"><i class="fa-brands fa-youtube fa-2xl" style="color: #ffffff;"></i></a></li>
+            <li class=""><a href="https://discord.com/invite/genshinimpact" target="_blank" title="discord"><i class="fa-brands fa-discord fa-2xl" style="color: #ffffff;"></i></a></li>
+            <li class=""><a href="https://www.instagram.com/genshinimpact/" target="_blank" title="instagram"><i class="fa-brands fa-instagram fa-2xl" style="color: #ffffff;"></i></a></li>
+            <li class=""><a href="https://vk.com/genshinimpact" target="_blank" title="vk"><i class="fa-brands fa-vk fa-2xl" style="color: #ffffff;"></i></a></li>
+            <li class=""><a href="https://twitter.com/GenshinImpact" target="_blank" title="twitter"><i class="fa-brands fa-twitter fa-2xl" style="color: #ffffff;"></i></a></li>
+        </ul>
+    </footer>
+    <script src="accets/reg.js"></script>
+    <script src="accets/app.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>
+    

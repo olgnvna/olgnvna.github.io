@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Genshin Characters</title>
+        <link rel="stylesheet" href="accets/sumeru.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <header>
+            <h2 class="logo">Genshin Characters</h2>
+            <nav class="navigation">
+                <a href="index.html">Главная</a> 
+                <a href="index.html#slider">Регионы</a>
+                <a href="index.html#news">Новости</a> 
+                <button onclick="Scroll()" class="btnLogin-popup">Вход</button>
+            </nav>
+        </header>
+        <div class="wrapper__outer">
+            <div class="wrapper">
+                <span class="icon-close">
+                    <ion-icon name="close-outline"></ion-icon>
+                </span>
+                <div class="form-box login">
+                    <h2>Войти в учетную запись</h2>
+                    <form action="#">
+                        <div class="input-box">
+                            <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+                            <input type="email" required>
+                            <label>Электронная почта</label>
+                        </div>
+                        <div class="input-box">
+                            <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                            <input type="password" required>
+                            <label>Пароль</label>
+                        </div>
+                        <div class="remember-forgot">
+                            <label><input type="checkbox">Запомнить меня</label>
+                            <a href="#">Забыли пароль?</a>
+                        </div>
+                        <button type="submit" class="btn">Войти</button>
+                        <div class="login-register">
+                            <p>Нет аккаунта? <a href="#" class="register-link">Зарегистрироваться</a></p>
+                        </div>
+                    </form>
+                </div>
+                <div class="form-box register">
+                    <h2>Регистрация</h2>
+                    <form action="#">
+                        <div class="input-box">
+                            <span class="icon"><ion-icon name="person-outline"></ion-icon></span>
+                            <input type="text" required>
+                            <label>Логин</label>
+                        </div>
+                        <div class="input-box">
+                            <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+                            <input type="email" required>
+                            <label>Электронная почта</label>
+                        </div>
+                        <div class="input-box">
+                            <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                            <input type="password" required>
+                            <label>Пароль</label>
+                        </div>
+                        <div class="remember-forgot">
+                            <label><input type="checkbox">Мною прочитаны и приняты Пользовательское соглашение и Политика конфиденциальности</label>
+                        </div>
+                        <button type="submit" class="btn">Регистрация</button>
+                        <div class="login-register">
+                            <p>У вас уже есть аккаунт? <a href="#" class="login-link">Войти</a></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <main>
+            <div class="city__content">
+                <h1 class="city__name">Сумеру</h1> 
+                <div class="city__desc">
+                     <p>Город учёных, расположенный на западе центральной части континента Тейват.
+                    <br> Удивительный край, где есть и пышные тропические леса, и бесплодные пески, где растут и покоятся бесчисленные плоды мудрости. Проходя через тропический лес к ступеням города учёных или занимаясь раскопками в пустыне в поисках руин, Путешественники из разных стран могут почерпнуть здесь ценные знания.</p>
+                </div> 
+                <img src="https://upload-os-bbs.hoyolab.com/upload/2023/03/06/248439337/426673371890b5bcdf32903b115f5422_5949630828822662870.png?x-oss-process=image%2Fresize%2Cs_1000%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp%2Fquality%2Cq_80">
+            </div>
+        </main>
+        <h2>Нахида - архонт Сумеру</h2>
+        <section class="section1">
+            <div class="video_desc">
+                <p>Каждая живая душа заслуживает счастья.<br>
+                    Корни деревьев уходят в земные глубины, а листья тянутся к звёздам.<br>
+                    До тех пор, пока их ветви не принесут плоды, в которых заключены небеса и океаны, мудрость и свобода мысли.<br>
+                </p>
+            </div>
+            <iframe class="video" width="850" height="500" src="https://www.youtube.com/embed/dpZhGzZ3hNc" title="«Безграничное спокойствие» Нахида - Новый персонаж | Genshin Impact" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </section>
+        <h2>Персонажи Сумеру</h2>
+        <section class="sliderSection">
+        <div class="slider">
+            <div class="list">
+                <div class="item active">
+                    <img src="accets/image/sumeru/tignary.png">
+                    <div class="content">
+                        <h2>Тигнари</h2>
+                        <p>
+                            Лесной страж Авидьи и учёный-ботаник, окончивший Амурту. Ведёт насыщенную жизнь, патрулируя тропический лес, защищая экологию и ежедневно читая лекции дуракам.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="accets/image/sumeru/dori.png">
+                    <div class="content">
+                        <h2>Дори</h2>
+                        <p>
+                            Дори - негоциантка из Сумеру, которая очень любит блеск монет.
+                            Она невероятно красноречива, благодаря чему может продавать странные и загадочные товары по очень высоким ценам.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="accets/image/sumeru/saino.png">
+                    <div class="content">
+                        <h2>Сайно</h2>
+                        <p>
+                            Генерал махаматра Академии, которому подчиняются все матры. Его своеобразное чувство юмора оставляет неизгладимое впечатление.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="accets/image/sumeru/candace.png">
+                    <div class="content">
+                        <h2>Кандакия</h2>
+                        <p>
+                            Защитница деревни Аару, добрая и заботливая. Никто не навредит деревне, пока та под её покровительством.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="accets/image/sumeru/nilou.png">
+                    <div class="content">
+                        <h2>Нилу</h2>
+                        <p>
+                            Звезда театра Зубаира, чей грациозный танец подобен только что раскрывшейся белоснежной кувшинке.
+                            Но она вовсе не холодна или надменна. Даже торопливому путнику не забыть её искреннюю улыбку.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="accets/image/sumeru/nahida.png">
+                    <div class="content">
+                        <h2>Нахида</h2>
+                        <p>
+                            Малую властительницу Кусанали, что едва ли покидает стены Храма Сурастаны, почти никогда не упоминают и не принимают всерьёз.
+                            Она несёт тяжёлое бремя и никогда не останавливается, даже если кругом кромешная тьма и одиночество.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="accets/image/sumeru/layla.png">
+                    <div class="content">
+                        <h2>Лайла</h2>
+                        <p>
+                            Студентка даршана Ртавахист. Cколь бы неподатливым ни был гранит науки, она всегда приходит к столь блестящим заключениям, что поневоле задаёшься вопросом: не пишет ли она свои работы во сне?
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="accets/image/sumeru/strannik.png">
+                    <div class="content">
+                        <h2>Странник</h2>
+                        <p>
+                            Если мерилом человечности является наличие сердца, то он не может считаться таковым.
+                            Если кукла без сердца испытывает радость и печаль, то она будет наиболее похожей на человека.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="accets/image/sumeru/faruzan.png">
+                    <div class="content">
+                        <h2>Фарузан</h2>
+                        <p>
+                            Выдающийся учёный Академии, пришедший к нам «из прошлого века», и одна из основоположников древней механики как области исследования. Однако эти заслуги со временем были преданы забвению, как и она сама.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="accets/image/sumeru/dehya.png">
+                    <div class="content">
+                        <h2>Дэхья</h2>
+                        <p>
+                            Член Пустынников, вольной группы наёмников из Сумеру. Сильная и смелая, она пользуется безупречной репутацией среди наёмников.
+                    </div>
+                </div>
+            </div>
+            <div class="arrows">
+                <button id="prev"><</button>
+                <button id="next">></button>
+            </div>
+            <div class="thumbnail">
+                <div class="item active">
+                    <img src="accets/image/sumeru/tignary.png">
+                    <div class="content">
+                       Тигнари
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="accets/image/sumeru/dori.png">
+                    <div class="content">
+                        Дори
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="accets/image/sumeru/saino.png">
+                    <div class="content">
+                        Сайно
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="accets/image/sumeru/candace.png">
+                    <div class="content">
+                        Кандакия
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="accets/image/sumeru/nilou.png">
+                    <div class="content">
+                        Нилу
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="accets/image/sumeru/nahida.png">
+                    <div class="content">
+                        Нахижа
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="accets/image/sumeru/layla.png">
+                    <div class="content">
+                        Лайла
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="accets/image/sumeru/strannik.png">
+                    <div class="content">
+                        Странник
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="accets/image/sumeru/faruzan.png">
+                    <div class="content">
+                        Фарузан
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="accets/image/sumeru/dehya.png">
+                    <div class="content">
+                        Дэхья
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <h2 class="logo">Genshin Impact</h2>
+        <p><a href="https://genshin.hoyoverse.com/ru/home">Официальный сайт Genshin Impact</a></p>
+        <p><a href="mailto:sonvhx@icloud.com">Служба поддержки</a></p>
+        <ul class="social-footer2">
+            <li class=""><a href="https://www.youtube.com/c/GenshinImpact" title="youtube" target="_blank"><i class="fa-brands fa-youtube fa-2xl" style="color: #ffffff;"></i></a></li>
+            <li class=""><a href="https://discord.com/invite/genshinimpact" target="_blank" title="discord"><i class="fa-brands fa-discord fa-2xl" style="color: #ffffff;"></i></a></li>
+            <li class=""><a href="https://www.instagram.com/genshinimpact/" target="_blank" title="instagram"><i class="fa-brands fa-instagram fa-2xl" style="color: #ffffff;"></i></a></li>
+            <li class=""><a href="https://vk.com/genshinimpact" target="_blank" title="vk"><i class="fa-brands fa-vk fa-2xl" style="color: #ffffff;"></i></a></li>
+            <li class=""><a href="https://twitter.com/GenshinImpact" target="_blank" title="twitter"><i class="fa-brands fa-twitter fa-2xl" style="color: #ffffff;"></i></a></li>
+        </ul>
+    </footer>
+    <script src="accets/reg.js"></script>
+    <script src="accets/app.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>
+    

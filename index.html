@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Genshin Characters</title>
+        <link rel="stylesheet" href="accets/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <header>
+            <h2 class="logo">Genshin Characters</h2>
+            <nav class="navigation">
+                <a href="index.html">Главная</a> 
+                <a href="#slider">Регионы</a>
+                <a href="#news">Новости</a> 
+                <button onclick="Scroll()" class="btnLogin-popup">Вход</button>
+            </nav>
+        </header>
+        <main>
+            <div class ="about" id="news">
+                <h3>Genshin Impact - это захватывающая ролевая игра с огромным открытым миром, разнообразными локациями и более 30 уникальными персонажами. Она предлагает игрокам увлекательные приключения, захватывающие сражения и интересные квесты. Если вы любите ролевые игры и открытые миры, то Genshin Impact - отличный выбор для вас.</h3>
+            </div>
+            <h2>Новости</h2>
+            <div class="news"> 
+                <div class="product-item">
+                    <div class="product-image" style="background-image: url(https://fastcdn.hoyoverse.com/content-v2/hk4e/113734/fa29116b3f2b9c8a40fb3a40d2e74028_8377162890040065178.jpg);"></div>
+                    <div class="product-list">
+                    <h3>Событие «Фантастические приключения Телькси»</h3>
+                        <span class="price">Привет, Путешественники! Событие "Фантастические приключения Телькси" скоро начнётся! Давайте вместе посмотрим, каким будет игровой процесс в этом событии!</span>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-image" style="background-image: url(https://fastcdn.hoyoverse.com/content-v2/hk4e/113680/27a3f8b6c70fb5f9f298f2d72146368e_63787610858571617.jpg);"></div>
+                    <div class="product-list">
+                    <h3>Анимация Genshin Impact - Последний поклон грешницы</h3>
+                        <span class="price">Став свидетельницей бесчисленных судебных заседаний, она наконец-то дождалась самого грандиозного и драматичного из всех.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper__outer">
+                <div class="wrapper">
+                    <span class="icon-close">
+                        <ion-icon name="close-outline"></ion-icon>
+                    </span>
+                    <div class="form-box login">
+                        <h2>Войти в учетную запись</h2>
+                        <form action="#">
+                            <div class="input-box">
+                                <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+                                <input type="email" required>
+                                <label>Электронная почта</label>
+                            </div>
+                            <div class="input-box">
+                                <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                                <input type="password" required>
+                                <label>Пароль</label>
+                            </div>
+                            <div class="remember-forgot">
+                                <label><input type="checkbox">Запомнить меня</label>
+                                <a href="#">Забыли пароль?</a>
+                            </div>
+                            <button type="submit" class="btn">Войти</button>
+                            <div class="login-register">
+                                <p>Нет аккаунта? <a href="#" class="register-link">Зарегистрироваться</a></p>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="form-box register">
+                        <h2>Регистрация</h2>
+                        <form action="#">
+                            <div class="input-box">
+                                <span class="icon"><ion-icon name="person-outline"></ion-icon></span>
+                                <input type="text" required>
+                                <label>Логин</label>
+                            </div>
+                            <div class="input-box">
+                                <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+                                <input type="email" required>
+                                <label>Электронная почта</label>
+                            </div>
+                            <div class="input-box">
+                                <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                                <input type="password" required>
+                                <label>Пароль</label>
+                            </div>
+                            <div class="remember-forgot">
+                                <label><input type="checkbox">Мною прочитаны и приняты Пользовательское соглашение и Политика конфиденциальности</label>
+                            </div>
+                            <button type="submit" class="btn">Регистрация</button>
+                            <div class="login-register">
+                                <p>У вас уже есть аккаунт? <a href="#" class="login-link">Войти</a></p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <h2>Персонажи по регионам</h2>
+        <section class="sliderSection" id="slider">
+            <div class="container">
+                <div class="slide">
+                    <div class="item" style="background-image: url(accets/image/mond.png);">
+                        <div class="content">
+                            <a href="mond.html"><div class="name">Мондштадт</div></a>
+                        </div>
+                    </div>
+                    <div class="item" style="background-image: url(accets/image/liye.jpeg);">
+                        <div class="content">
+                            <a href="liye.html"><div class="name">Ли Юэ</div></a>
+                        </div>
+                    </div>
+                    <div class="item" style="background-image: url(accets/image/inadzuma.png);">
+                        <div class="content">
+                            <a href="inadzuma.html"><div class="name">Инадзума</div></a>
+                        </div>
+                    </div>
+                    <div class="item" style="background-image: url(accets/image/sumeru.jpeg);">
+                        <div class="content">
+                            <a href="sumeru.html"><div class="name">Сумеру</div></a>
+                        </div>
+                    </div>
+                    <div class="item" style="background-image: url(accets/image/fontein.png);">
+                        <div class="content">
+                            <a href="fontein.html"><div class="name">Фонтейн</div></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="button">
+                    <button class="prev"><i class="fa-solid fa-arrow-left"></i></button>
+                    <button class="next"><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </section>
+    <footer>
+        <h2 class="logo">Genshin Impact</h2>
+        <p><a href="https://genshin.hoyoverse.com/ru/home">Официальный сайт Genshin Impact</a></p>
+        <p><a href="mailto:sonvhx@icloud.com">Служба поддержки</a></p>
+        <ul class="social-footer2">
+            <li class=""><a href="https://www.youtube.com/c/GenshinImpact" title="youtube" target="_blank"><i class="fa-brands fa-youtube fa-2xl" style="color: #ffffff;"></i></a></li>
+            <li class=""><a href="https://discord.com/invite/genshinimpact" target="_blank" title="discord"><i class="fa-brands fa-discord fa-2xl" style="color: #ffffff;"></i></a></li>
+            <li class=""><a href="https://www.instagram.com/genshinimpact/" target="_blank" title="instagram"><i class="fa-brands fa-instagram fa-2xl" style="color: #ffffff;"></i></a></li>
+            <li class=""><a href="https://vk.com/genshinimpact" target="_blank" title="vk"><i class="fa-brands fa-vk fa-2xl" style="color: #ffffff;"></i></a></li>
+            <li class=""><a href="https://twitter.com/GenshinImpact" target="_blank" title="twitter"><i class="fa-brands fa-twitter fa-2xl" style="color: #ffffff;"></i></a></li>
+        </ul>
+    </footer>
+    <script src="accets/script.js"></script>
+    <script src="accets/reg.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>
