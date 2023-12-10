@@ -148,8 +148,7 @@ header{
     transition: transform .5s ease, height .2s ease;
     transform: scale(0);
     font-family: 'Kurale', sans-serif;
-    margin-top: 250px;
-    margin-bottom: 75px;
+    margin: 200px auto 75px;
 
 }
 
@@ -365,6 +364,11 @@ header{
     gap: 15px;
     font-family: 'Kurale', sans-serif;
     color: #fff;
+    grid-template-areas:
+                "t2_1 t2_1 t2_2 t2_3"
+                "t2_4 t2_5 t2_2 t2_6"
+                "t2_4 t2_7 t2_7 t2_7";
+    grid-template-rows: auto auto auto;
 }
 .task2_cont:hover .t2 {
     transform: scale(0.99);
@@ -379,6 +383,7 @@ header{
 .task2_cont .t2:hover {
     transform: scale(1.02);
     background-color: rgba(195, 186, 117, 0.6);
+    cursor: pointer;
 }
 
 .t2_1 {
@@ -419,37 +424,6 @@ header{
 }
 .t2_7 {
     grid-area: t2_7;
-}
-
-@media (min-width: 1201px){
-    .task2_cont {
-        grid-template-areas:
-                "t2_1 t2_1 t2_2 t2_3"
-                "t2_4 t2_5 t2_2 t2_6"
-                "t2_4 t2_7 t2_7 t2_7";
-        grid-template-rows: auto auto auto;
-    }
-}
-
-@media (max-width: 1200px) and (min-width: 851px) {
-    .task2_cont {
-        grid-template-areas:
-                "t2_1 t2_1 t2_3 t2_3"
-                "t2_4 t2_5 t2_2 t2_2"
-                "t2_6 t2_7 t2_7 t2_7";
-        grid-template-rows: auto auto auto;
-    }
-}
-
-@media (max-width: 850px) {
-    .task2_cont {
-        grid-template-areas:
-                "t2_1 t2_1 t2_3 t2_3"
-                "t2_4 t2_4 t2_2 t2_2"
-                "t2_5 t2_5 t2_6 t2_6"
-                "t2_5 t2_5 t2_7 t2_7";
-        grid-template-rows: auto auto auto auto;
-    }
 }
 
 .sliderSection {
@@ -581,12 +555,6 @@ header{
     filter: brightness(1);
     cursor: auto;
 }
-.thumbnail .item .content{
-    position: absolute;
-    inset: auto 10px 10px 10px;
-    color: #ffffff;
-    font-family: 'Kurale', sans-serif;
-}
 
 footer {
     background-color: #cdcdcd8b;
@@ -621,7 +589,69 @@ ul.social-footer2 li a {
     font-family: 'Kurale', sans-serif;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 414px) {
+@media only screen and (max-width: 1024px){
+    .task2_cont {
+        grid-template-areas:
+                "t2_1 t2_1 t2_3 t2_3"
+                "t2_4 t2_5 t2_2 t2_2"
+                "t2_6 t2_7 t2_7 t2_7";
+        grid-template-rows: auto auto auto;
+    }
+    .city__content{
+        margin-top: 30px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .task2_cont {
+        grid-template-areas:
+                "t2_1 t2_1 t2_3 t2_3"
+                "t2_4 t2_4 t2_2 t2_2"
+                "t2_5 t2_5 t2_6 t2_6"
+                "t2_5 t2_5 t2_7 t2_7";
+        grid-template-rows: auto auto auto auto;
+    }
+    .city__content{
+        margin-top: 90px;
+    }
+    .city__desc {
+        width: 500px;
+    }
+    .city__content img{
+        width: 450px;
+        height: 350px;
+    }
+    .slider .list .item .content h2{
+        font-size: 70px;
+    }
+}
+@media only screen and (max-width: 568px){
+    .task2_cont {
+        grid-template-areas:
+                "t2_1"
+                "t2_2"
+                "t2_3"
+                "t2_4"
+                "t2_5"
+                "t2_6"
+                "t2_7";
+        grid-template-rows: auto;
+    }
+    .city__content{
+        margin-top: 100px;
+    }
+    .city__content img{
+        width: 400px;
+        height: 300px;
+    }
+    .city__desc {
+        width: 450px;
+    }
+    .slider .list .item .content h2{
+        font-size: 65px;
+    }
+}
+
+@media only screen and (max-width: 414px) {
     .task2_cont {
         grid-template-areas:
                 "t2_1"

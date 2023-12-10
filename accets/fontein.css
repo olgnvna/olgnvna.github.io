@@ -15,7 +15,6 @@ body {
     min-height: 100vh;
     background-image: url("../accets/image/bg_glavnaya.jpg");
     background-position: center;
-
 } 
 
 main {
@@ -135,9 +134,7 @@ header{
     transition: transform .5s ease, height .2s ease;
     transform: scale(0);
     font-family: 'Kurale', sans-serif;
-    margin-top: 250px;
-    margin-bottom: 75px;
-
+    margin: 200px auto 75px;
 }
 
 .wrapper.active-popup {
@@ -320,6 +317,7 @@ header{
     justify-content: space-between;
     gap: 50px;
     margin-bottom: 20px;
+    width: 80%;
 }
 .rotate-block {
     width: 100%;
@@ -512,12 +510,6 @@ header{
     filter: brightness(1);
     cursor: auto;
 }
-.thumbnail .item .content{
-    position: absolute;
-    inset: auto 10px 10px 10px;
-    color: #ffffff;
-    font-family: 'Kurale', sans-serif;
-}
 
 footer {
     background-color: #cdcdcd8b;
@@ -564,6 +556,75 @@ ul.social-footer2 li a {
     line-height: 9vh;
     font-family: 'Pacifico', sans-serif;
     color: #fff;
+}
+
+@media only screen and (max-width: 1024px){
+    .city__content{
+        margin-top: 30px;
+    }
+    .container{
+        gap: 17px;
+    }
+    .change{
+        width: 170px;
+        height: 170px;
+    }
+    .back-side-text{
+
+    }
+
+}
+@media only screen and (max-width: 768px){
+    .container{
+        gap: 17px;
+    }
+    .change{
+        width: 130px;
+        height: 130px;
+    }
+    .back-side-text{
+        font-size: 13px;
+    }
+    .city__content{
+        margin-top: 90px;
+    }
+    .city__desc {
+        width: 500px;
+    }
+    .city__content img{
+        width: 450px;
+        height: 350px;
+    }
+    .slider .list .item .content h2{
+        font-size: 70px;
+    }
+}
+@media only screen and (max-width: 568px){
+    .container{
+        flex-direction: column;
+        gap: 15px;
+        margin: 0 auto;
+    }
+    .change{
+        width: 200px;
+        height: 160px;
+    }
+    .back-side-text{
+        font-size: 16px;
+    }
+    .city__content{
+        margin-top: 100px;
+    }
+    .city__content img{
+        width: 400px;
+        height: 300px;
+    }
+    .city__desc {
+        width: 450px;
+    }
+    .slider .list .item .content h2{
+        font-size: 65px;
+    }
 }
 
 @media only screen and (max-width: 414px) {

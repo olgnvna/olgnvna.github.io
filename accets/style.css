@@ -50,23 +50,25 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
     padding: 20px;
     flex-wrap: wrap;
 }
 
 .product-item {
-    width: 420px;
-    min-height: 350px;
-    max-height: 500px;
+    width: 320px;
+    height: 370px;
     text-align: center;
     margin: 0 auto;
-    border-bottom: 2px solid #F5F5F5;
     background: #5e6065a7;
-    font-family: "Open Sans";
     transition: .3s ease-in;
     border-radius: 8px;
     overflow: hidden;
+    margin: 15px auto;
+ }
+
+ .product-item:hover{
+    transform: scale(1.1);
  }
 
  .product-image {
@@ -78,14 +80,12 @@ main {
     background-position: center;
     border-radius: 8px;
  }
- .product-item:hover{
-    transform: scale(1.1);
- }
 
  .product-list {
     padding: 10px 0;
     margin: 0 10px 0 10px;
  }
+
  .product-list h3 {
     font-size: 18px;
     font-weight: 400;
@@ -93,6 +93,7 @@ main {
     margin: 0 0 10px 0;
     font-family: 'Pacifico', sans-serif;
  }
+
  .price {
     font-size: 16px;
     color: #ffffff;
@@ -112,6 +113,7 @@ header{
     justify-content: space-between;
     align-items: center; 
     z-index: 99;
+    max-height: 170px;
 }
 
 .logo {
@@ -186,7 +188,7 @@ header{
 .wrapper {
     position: relative;
     width: 400px; 
-    z-index:10;
+    z-index: 10;
     margin: 0 auto;
     background: transparent;
     border: 2px solid rgba(255, 255, 255, -5);
@@ -200,9 +202,7 @@ header{
     transition: transform .5s ease, height .2s ease;
     transform: scale(0);
     font-family: 'Kurale', sans-serif;
-    margin-top: 250px;
-    margin-bottom: 75px;
-
+    margin: 200px auto 75px;
 }
 
 .wrapper.active-popup {
@@ -234,7 +234,6 @@ header{
     transition: transform .18s ease;
     transform: translateX(0);
 }
-
 
 .wrapper .icon-close{
     position: absolute;
@@ -363,6 +362,13 @@ header{
     text-decoration: underline;
 }
 
+.sliderSection {
+    position: relative;
+    width: 100%;
+    height: 650px;
+    margin-bottom: 50px;
+}
+
 .container{
     position: absolute;
     top: 55%;
@@ -372,7 +378,6 @@ header{
     height: 600px;
     background: #ffffff;
     box-shadow: 0 30px 50px #dbdbdb;
-
 }
 
 .container .slide .item{
@@ -426,7 +431,6 @@ header{
     display: none;
     cursor: pointer;
 }
-
 
 .slide .item:nth-child(2) .content{
     display: block;
@@ -529,11 +533,72 @@ ul.social-footer2 li a {
     font-family: 'Kurale', sans-serif;
 }
 
-.sliderSection {
-    position: relative;
-    width: 100%;
-    height: 650px;
-    margin-bottom: 50px;
+@media only screen and (max-width: 1024px)
+{
+    .about{
+        margin-top: 50px;
+    }
+    .container { 
+        width: 820px;
+        top: 50%;
+    }
+    .slide .item:nth-child(3){ 
+        display: none;
+    }
+    .slide .item:nth-child(4){
+        display: none;
+    }
+    .slide .item:nth-child(5){
+        display: none;
+    }
+    .slide .item:nth-child(n + 6){
+        display: none;
+    }
+}
+@media only screen and (max-width: 768px)
+{
+    .about{
+        margin-top: 70px;
+    }
+    .container { 
+        width: 650px;
+        top: 50%;
+    }
+    .slide .item:nth-child(3){ 
+        display: none;
+    }
+    .slide .item:nth-child(4){
+        display: none;
+    }
+    .slide .item:nth-child(5){
+        display: none;
+    }
+    .slide .item:nth-child(n + 6){
+        display: none;
+    }
+}
+@media only screen and (max-width: 568px)
+{
+    .about{
+        margin-top: 100px;
+        width: 450px;
+    }
+    .container { 
+        width: 450px;
+        top: 50%;
+    }
+    .slide .item:nth-child(3){ 
+        display: none;
+    }
+    .slide .item:nth-child(4){
+        display: none;
+    }
+    .slide .item:nth-child(5){
+        display: none;
+    }
+    .slide .item:nth-child(n + 6){
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 414px) {
@@ -543,12 +608,10 @@ ul.social-footer2 li a {
     .logo {
         font-size: 1.5em;
     }
-
     .navigation a {
         font-size: 1em;
         margin-left: 10px;
     }
-
     .navigation .btnLogin-popup {
         width: 80px;
         height: 40px;
@@ -604,16 +667,6 @@ ul.social-footer2 li a {
         width: 320px;
         top: 50%;
     }
-    .sliderSection > h2 {
-        font-size: 30px;
-        width: auto;
-        height: 60px;
-    }
-    .slide .item {
-        width: 50px;
-        height: 100px;
-        border-radius: 10px;
-    }
     .slide .item:nth-child(3){ 
         display: none;
     }
@@ -645,7 +698,7 @@ ul.social-footer2 li a {
         border-radius: 15px;
     }
     .product-item{
-        height: 200px;
+        margin-bottom: 20px;
     }
     .price{
         font-size: 14px;
@@ -657,7 +710,6 @@ ul.social-footer2 li a {
         font-size: 16px;
         text-align: center;
     }
-    
     ul.social-footer2 li a {
         font-size: 16px;
         text-align: center;

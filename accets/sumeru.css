@@ -15,7 +15,6 @@ body {
     min-height: 100vh;
     background-image: url("../accets/image/bg_glavnaya.jpg");
     background-position: center;
-
 } 
 
 main {
@@ -340,7 +339,10 @@ header{
     display: flex;
     border-radius: 20px;
     margin: 0 auto;
-    
+    width: 80%;
+    margin: 0 auto;
+    height: 600px;
+    margin-top: 30px;
 }
   .video iframe{
     width:100%;
@@ -353,8 +355,8 @@ header{
     font-size: 18px;
     line-height: 1.7;
     color: #fff;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .video_desc > p {
@@ -490,12 +492,6 @@ header{
     filter: brightness(1);
     cursor: auto;
 }
-.thumbnail .item .content{
-    position: absolute;
-    inset: auto 10px 10px 10px;
-    color: #ffffff;
-    font-family: 'Kurale', sans-serif;
-}
 
 footer {
     background-color: #cdcdcd8b;
@@ -509,7 +505,6 @@ footer a {
     color: #fff;
     text-decoration: none;
     font-size: 17px;
-
 }
 
 ul.social-footer2 {
@@ -528,6 +523,42 @@ ul.social-footer2 li a {
     display: block;
     text-align: center;
     font-family: 'Kurale', sans-serif;
+}
+
+@media only screen and (max-width: 1024px){
+    .city__content{
+        margin-top: 30px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .city__content{
+        margin-top: 90px;
+    }
+    .city__desc {
+        width: 500px;
+    }
+    .city__content img{
+        width: 450px;
+        height: 350px;
+    }
+    .slider .list .item .content h2{
+        font-size: 70px;
+    }
+}
+@media only screen and (max-width: 568px){
+    .city__content{
+        margin-top: 100px;
+    }
+    .city__content img{
+        width: 400px;
+        height: 300px;
+    }
+    .city__desc {
+        width: 450px;
+    }
+    .slider .list .item .content h2{
+        font-size: 65px;
+    }
 }
 
 @media only screen and (max-width: 414px) {
