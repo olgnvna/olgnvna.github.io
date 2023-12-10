@@ -535,6 +535,15 @@ ul.social-footer2 li a {
 
 @media only screen and (max-width: 1024px)
 {
+    header {
+        padding: 15px;
+    }
+    .navigation .btnLogin-popup {
+        width: 80px;
+        height: 40px;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
     .about{
         margin-top: 50px;
     }
@@ -557,6 +566,15 @@ ul.social-footer2 li a {
 }
 @media only screen and (max-width: 768px)
 {
+    header {
+        padding: 15px;
+    }
+    .navigation .btnLogin-popup {
+        width: 80px;
+        height: 40px;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
     .about{
         margin-top: 70px;
     }
@@ -579,8 +597,16 @@ ul.social-footer2 li a {
 }
 @media only screen and (max-width: 568px)
 {
+    header {
+        padding: 15px;
+    }
+    .navigation .btnLogin-popup {
+        width: 70px;
+        height: 40px;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
     .about{
-        margin-top: 100px;
         width: 450px;
     }
     .container { 

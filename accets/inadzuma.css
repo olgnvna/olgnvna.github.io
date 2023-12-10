@@ -535,11 +535,26 @@ ul.social-footer2 li a {
 }
 
 @media only screen and (max-width: 1024px){
-    .city__content{
-        margin-top: 30px;
+    header {
+        padding: 15px;
+    }
+    .navigation .btnLogin-popup {
+        width: 80px;
+        height: 40px;
+        margin-left: 30px;
+        margin-top: 10px;
     }
 }
 @media only screen and (max-width: 768px){
+    header {
+        padding: 15px;
+    }
+    .navigation .btnLogin-popup {
+        width: 80px;
+        height: 40px;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
     .city__content{
         margin-top: 90px;
     }
@@ -555,8 +570,17 @@ ul.social-footer2 li a {
     }
 }
 @media only screen and (max-width: 568px){
+    header {
+        padding: 15px;
+    }
+    .navigation .btnLogin-popup {
+        width: 70px;
+        height: 40px;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
     .city__content{
-        margin-top: 100px;
+        margin-top: 30px;
     }
     .city__content img{
         width: 400px;
