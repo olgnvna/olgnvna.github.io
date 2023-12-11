@@ -675,7 +675,7 @@ ul.social-footer2 li a {
         margin-top: 5px;
     }
     .login-register{
-        margin-bottom: 15px;
+        margin-top: 15px;
     }
     .btn {
         height: 35px;
@@ -738,12 +738,19 @@ ul.social-footer2 li a {
     }
     .wrapper {
         width: 300px;
-        height: 340px;
+        height: 400px;
         margin-bottom: 30px;
         margin-top: 150px;
     }
     .wrapper .form-box.login {
         padding: 15px;
+    }
+    .wrapper .form-box.register {
+        padding: 15px;
+        height: 100%;
+    }
+    .wrapper.active .form-box.register{
+        height: 400px;
     }
     .form-box.login h2 {
         font-size: 1.1em;
@@ -753,8 +760,11 @@ ul.social-footer2 li a {
         font-size: 1.1em;
     }
     .input-box{
-        margin: 15px 0;
+        margin: 10px 0;
         font-size: .9em;
+    }
+    .login-register{
+        margin-top: 15px;
     }
     .remember-forgot{
         font-size: .8em;
@@ -790,7 +800,7 @@ ul.social-footer2 li a {
         font-size: 55px;
     }
     .arrows{
-        top: 70%;
+        top: 71%;
         left: 40%;
     }
     .section1 > h2 {
