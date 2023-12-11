@@ -22,11 +22,10 @@ body > h2 {
     font-family: 'Pacifico', sans-serif;
     color: #fff;
     background: #cdcdcd8b;
-    width: auto;
+    height: auto;
     text-align: center;
-    height: 80px;
     font-size: 40px;
-    width: 100%;
+    width: auto;
 }  
 
 main > h2 {
@@ -512,7 +511,6 @@ footer a {
     color: #fff;
     text-decoration: none;
     font-size: 17px;
-
 }
 
 ul.social-footer2 {
@@ -605,6 +603,38 @@ ul.social-footer2 li a {
         height: 40px;
         margin-left: 30px;
         margin-top: 10px;
+    }
+    .wrapper {
+        width: 350px;
+        height: 400px;
+        margin-bottom: 30px;
+        margin-top: 150px;
+    }
+    .wrapper .form-box.login {
+        padding: 15px;
+    }
+    .form-box.login h2 {
+        font-size: 1.1em;
+        margin-top: 10px;
+    }
+    .form-box.register h2 {
+        font-size: 1.1em;
+        margin-top: 10px;
+    }
+    .input-box{
+        margin: 15px 0;
+        font-size: .9em;
+    }
+    .remember-forgot{
+        font-size: .8em;
+        margin-top: 5px;
+    }
+    .login-register{
+        margin-bottom: 15px;
+    }
+    .btn {
+        height: 35px;
+        font-size: .80em;
     }
     .about{
         width: 450px;
@@ -731,10 +761,6 @@ ul.social-footer2 li a {
     } 
     footer {
         height: 135px;
-    }
-    footer p a {
-        font-size: 16px;
-        text-align: center;
     }
     ul.social-footer2 li a {
         font-size: 16px;

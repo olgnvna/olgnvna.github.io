@@ -31,7 +31,7 @@ body > h2 {
     background: #cdcdcd8b;
     width: 100%;
     text-align: center;
-    height: 80px;
+    height: auto;
     font-size: 40px;
     margin-bottom: 30px;
     margin-top: 30px;
@@ -649,6 +649,38 @@ ul.social-footer2 li a {
         margin-left: 30px;
         margin-top: 10px;
     }
+    .wrapper {
+        width: 350px;
+        height: 400px;
+        margin-bottom: 30px;
+        margin-top: 150px;
+    }
+    .wrapper .form-box.login {
+        padding: 15px;
+    }
+    .form-box.login h2 {
+        font-size: 1.1em;
+        margin-top: 10px;
+    }
+    .form-box.register h2 {
+        font-size: 1.1em;
+        margin-top: 10px;
+    }
+    .input-box{
+        margin: 15px 0;
+        font-size: .9em;
+    }
+    .remember-forgot{
+        font-size: .8em;
+        margin-top: 5px;
+    }
+    .login-register{
+        margin-bottom: 15px;
+    }
+    .btn {
+        height: 35px;
+        font-size: .80em;
+    }
     .task2_cont {
         grid-template-areas:
                 "t2_1"
@@ -734,14 +766,6 @@ ul.social-footer2 li a {
         height: 35px;
         font-size: .80em;
     }
-    footer {
-        height: 135px;
-    }
-    
-    footer p a {
-        font-size: 16px;
-        text-align: center;
-    }
     
     ul.social-footer2 li a {
         font-size: 16px;
@@ -772,7 +796,7 @@ ul.social-footer2 li a {
         font-size: 55px;
     }
     .arrows{
-        top: 71%;
+        top: 70%;
         left: 40%;
     }
     .section1 > h2 {

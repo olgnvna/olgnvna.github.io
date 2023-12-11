@@ -33,6 +33,7 @@ body > h2 {
     font-size: 40px;
     margin-top: 70px;
     margin-bottom: 20px;
+    height: auto;
 }  
 
 header{
@@ -134,9 +135,7 @@ header{
     transition: transform .5s ease, height .2s ease;
     transform: scale(0);
     font-family: 'Kurale', sans-serif;
-    margin-top: 250px;
-    margin-bottom: 75px;
-
+    margin: 200px auto 75px;
 }
 
 .wrapper.active-popup {
@@ -570,6 +569,38 @@ ul.social-footer2 li a {
         margin-left: 30px;
         margin-top: 10px;
     }
+    .wrapper {
+        width: 350px;
+        height: 400px;
+        margin-bottom: 30px;
+        margin-top: 150px;
+    }
+    .wrapper .form-box.login {
+        padding: 15px;
+    }
+    .form-box.login h2 {
+        font-size: 1.1em;
+        margin-top: 10px;
+    }
+    .form-box.register h2 {
+        font-size: 1.1em;
+        margin-top: 10px;
+    }
+    .input-box{
+        margin: 15px 0;
+        font-size: .9em;
+    }
+    .remember-forgot{
+        font-size: .8em;
+        margin-top: 5px;
+    }
+    .login-register{
+        margin-bottom: 15px;
+    }
+    .btn {
+        height: 35px;
+        font-size: .80em;
+    }
     .city__content{
         margin-top: 30px;
     }
@@ -631,15 +662,7 @@ ul.social-footer2 li a {
         height: 35px;
         font-size: .80em;
     }
-    footer {
-        height: 135px;
-    }
-    
-    footer p a {
-        font-size: 16px;
-        text-align: center;
-    }
-    
+
     ul.social-footer2 li a {
         font-size: 16px;
         text-align: center;
@@ -669,17 +692,16 @@ ul.social-footer2 li a {
         font-size: 55px;
     }
     .arrows{
-        top: 71%;
+        top: 70%;
         left: 40%;
     }
+
     .video{
         width: 350px;
         height: 350px;
     }
     .video_desc {
         font-size: 16px;
-        margin-right: 15px;
-        margin-left: 15px;
       }
     body > h2{
         margin-top: 30px;
