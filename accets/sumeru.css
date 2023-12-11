@@ -662,20 +662,16 @@ ul.social-footer2 li a {
         height: 35px;
         font-size: .80em;
     }
-
     ul.social-footer2 li a {
         font-size: 16px;
         text-align: center;
     }
-
     .city__desc{
         width: 350px
     }
-
     .city__name {
         font-size: 4vh;
     }
-
     .city__content img{
         width: 350px;
         height: 300px;
@@ -695,7 +691,6 @@ ul.social-footer2 li a {
         top: 70%;
         left: 40%;
     }
-
     .video{
         width: 350px;
         height: 350px;

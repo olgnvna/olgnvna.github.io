@@ -633,12 +633,10 @@ ul.social-footer2 li a {
     .logo {
         font-size: 1.5em;
     }
-
     .navigation a {
         font-size: 1em;
         margin-left: 10px;
     }
-
     .navigation .btnLogin-popup {
         width: 80px;
         height: 40px;
@@ -682,7 +680,6 @@ ul.social-footer2 li a {
         font-size: 16px;
         text-align: center;
     }
-
     .city__desc{
         width: 350px
     }
@@ -690,7 +687,6 @@ ul.social-footer2 li a {
     .city__name {
         font-size: 4vh;
     }
-
     .city__content img{
         width: 350px;
         height: 300px;
@@ -723,5 +719,4 @@ ul.social-footer2 li a {
     body > h2{
         margin-bottom: 10px;
     }
-
 }
