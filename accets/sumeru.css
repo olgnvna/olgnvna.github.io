@@ -695,7 +695,7 @@ ul.social-footer2 li a {
         margin-top: 20px;
     }
     .slider .list .item .content h2{
-        font-size: 55px;
+        font-size: 48px;
     }
     .arrows{
         top: 71%;
@@ -710,5 +710,6 @@ ul.social-footer2 li a {
       }
     body > h2{
         margin-top: 30px;
+        font-size: 36px;
     }
 }
